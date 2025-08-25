@@ -1,0 +1,25 @@
+.name-textbox,
+.email-textbox {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.info-text,
+.yes-btn,
+.no-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.yes-btn,
+.no-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.info-text {
+    width: 200px;
+}

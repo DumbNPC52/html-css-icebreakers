@@ -1,0 +1,120 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.uber-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    transition: opacity 0.3s ease;
+}
+
+.uber-button:hover {
+    opacity: 0.6;
+}
+
+.amazon-button {
+    background-color: rgb(255,216, 20);
+    padding: 10px 45px;    
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.amazon-button:hover {
+    background-color: rgb(255, 204, 0);
+}
+
+.github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: box-shadow 0.3s ease;
+}
+
+.github-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.start-button {
+    background-color: rgb(121, 82, 179);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.start-button:hover {
+    transform: scale(1.05);
+    background-color: rgb(103, 70, 150);
+}
+
+.download-button {
+    background-color: white;
+    color: rgb(108, 117, 125);;
+    padding: 8px 20px;
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.apply-button {
+    background-color: rgb(10, 102, 194);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: rgb(8, 85, 160);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.save-button {
+    background-color: #fff;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 1.7px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease, border-width 0.3s ease;
+}
+
+.save-button:hover {
+    background-color: rgb(214, 233, 252);    
+    border-width: 2px;
+}

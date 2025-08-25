@@ -1,0 +1,16 @@
+.google-logo {
+    display: block;
+    width: 200px; 
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    border: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 0 0 0 230px;
+    padding: 10px 25px;
+    width: 400px;
+}

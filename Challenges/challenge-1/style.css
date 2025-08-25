@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: rgb(0, 113, 133);
+    font-size: 19px;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    color: rgb(230, 114, 38);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(190, 5, 45);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(55, 122, 247);
+}
+
+.highlight {
+    color: rgb(0, 118, 0);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.add-button {
+    background-color: rgb(255, 216, 20);
+    padding: 10px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    vertical-align: top;
+}
+
+.add-button:hover {
+    background-color: rgb(231, 177, 1);
+}
+
+.add-button:active {
+    opacity: 0.8;
+}
+
+.buy-button {
+    background-color: rgb(255, 164, 28);
+    padding: 9px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+    vertical-align: top;
+}
+
+.buy-button:hover {
+    background-color: rgb(231, 130, 0);
+}
+
+.buy-button:active {
+    opacity: 0.8;
+}
+

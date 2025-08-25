@@ -1,0 +1,82 @@
+/* Buttons */
+.back-button,
+.next-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Page numbers */
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: purple;
+  text-decoration: underline;
+  padding: 0 10px;
+}
+
+.pagination a:hover {
+  color: #daa520; /* Gold hover color */
+}
+
+/* Stretch Button */
+.stretch-button {
+    padding: 5px 10px;
+    transition: padding 0.3s ease, background-color 0.3s ease;
+    background-color: rgb(53, 190, 133);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 10px 5px;
+}
+
+.stretch-button:hover {
+    padding: 10px 20px;
+    background-color: rgb(34, 139, 34); /* Darker green on hover */
+}
+
+/* Click Button */
+.click-button {
+    transition: margin 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+    background-color: rgb(53, 190, 133);
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+.click-button:active {
+    margin: 8px 7px 12px 3px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgb(34, 139, 34); /* Darker green on hover */
+}
+
+/* One, Two, Three Buttons */
+.one-button,
+.two-button,
+.three-button {
+    padding: 10px 20px;
+    margin: 0 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(53, 190, 133);
+    transition: margin 0.3s ease, padding 0.3s ease;
+}
+
+.one-button:hover,
+.two-button:hover,
+.three-button:hover {
+    margin: 0 10px;
+    padding: 10px 40px;
+    background-color: rgb(34, 139, 34); /* Darker green on hover */
+}
+

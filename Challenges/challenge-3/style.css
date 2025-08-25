@@ -1,0 +1,106 @@
+p {
+    font-family: Arial;
+    color: rgb(36, 34, 34);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sales-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.new-text {
+    color: goldenrod;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mac-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pro-text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price-text {
+    color: rgb(107, 105, 105);
+    margin-bottom: 10px;
+}
+
+.buy-btn {
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s, box-shadow 0.3s;
+
+}
+
+.buy-btn:hover {
+    opacity: 0.8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.trade-text {
+    margin-bottom: 40px;
+}
+
+.num-text {
+    font-size: 28px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+}
+
+.symbol-text {
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+}
+
+.rise-text {
+    color: green;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.fall-text {
+    color: rgb(96, 96, 96);    
+}
+
+.loss-text {
+    color: red;
+}
+
+.codecamp-text {
+    font-size: 18px;
+    width : 600px;
+}
+.title-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.span-text {
+    font-weight: normal;
+    color: rgb(96, 96, 96);
+}
+
+.intro-text {
+    margin-bottom: 10px;
+}
+
+.link-text {
+    color: dodgerblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+

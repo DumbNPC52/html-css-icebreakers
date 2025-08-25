@@ -1,0 +1,140 @@
+/* Sign Up CSS */
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.signup-text {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.first-name,
+.last-name,
+.email,
+.password {
+    border: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 10px 15px;
+
+}
+
+.first-name,
+.last-name {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.email,
+.password,
+.signup-btn {
+    width: 417px;
+    display: block;
+}
+
+.signup-btn {
+    background: #3386f3;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 445px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #286bb8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Uber CSS */
+.uber-text {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: #555;
+}
+
+.uber-pickup,
+.uber-destination {
+    width: 400px;
+    border: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 10px 5px;
+    display: block;
+}
+
+.uber-date,
+.uber-time {
+    width: 400px;
+    border: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 10px 5px;
+    display: block;
+}
+
+.uber-btn,
+.schedule-btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.uber-btn {
+    background: #353534;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.uber-btn:hover {
+    background-color: #2a2a2a;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.schedule-btn {
+    background: #73747711;
+    color: rgb(8, 8, 8);
+    border: none;
+    margin-left: 10px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.schedule-btn:hover {
+    background-color: #73747733;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
