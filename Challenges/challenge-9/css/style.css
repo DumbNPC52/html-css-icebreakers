@@ -6,15 +6,16 @@ body {
 .grid-layout {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  column-gap: 80px;
+  /* grid-template-columns: 200px 200px 200px; */
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
 }
 
 .pic-preview {
   width: 250px;
   vertical-align: top;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
 }
 
 .profile-image {
